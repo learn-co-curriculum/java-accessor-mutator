@@ -1,4 +1,4 @@
-# Scope
+# Accessor and Mutator Methods
 
 ## Learning Goals
 
@@ -35,9 +35,9 @@ In Java, we define public **accessor** and **mutator** methods to get and set pr
     - An accessor method for a boolean instance variable `abc` would be named `isAbc`.
 - A mutator method takes one parameter whose type and name match the instance variable's declared type
   and name. Mutator methods don't return a value and are also called **setter** methods.
-    - A mutator method for instance variable `abc` would be named `setAbc` and would take a parameter named `abc`.
+    - A mutator method for an instance variable `abc` would be named `setAbc` and would take a parameter named `abc`.
 
-Let's see how this works with the `Dog` class, which has instance variables `name` and `wagginTail`.
+Let's see how this works with the `Dog` class, which has instance variables `name` and `waggingTail`.
 
 ```java
 public class Dog {
